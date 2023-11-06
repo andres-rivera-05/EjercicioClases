@@ -47,6 +47,16 @@ Console.WriteLine($"Super Poder: {superHeroeDos.superPoder.Nombre}");
 Console.WriteLine($"Super Poder: {superHeroeDos.superPoder.Descripcion}");
 Console.WriteLine($"Super Poder: {superHeroeDos.superPoder.Nivel}");
 
+Console.WriteLine();
+
+Console.WriteLine($"Nombre: {superHeroeTres.Nombre}");
+Console.WriteLine($"Identida Secreta: {superHeroeTres.IdentidadSecreta}");
+Console.WriteLine($"Ciudad: {superHeroeTres.Ciudad}");
+Console.WriteLine($"PuedeVolar: {superHeroeTres.PuedeVolar}");
+Console.WriteLine($"Super Poder: {superHeroeTres.superPoder.Nombre}");
+Console.WriteLine($"Super Poder: {superHeroeTres.superPoder.Descripcion}");
+Console.WriteLine($"Super Poder: {superHeroeTres.superPoder.Nivel}");
+
 
 public class SuperHeroe { 
     public string? Nombre {  get; set; } 
